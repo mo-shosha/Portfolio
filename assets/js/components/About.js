@@ -29,31 +29,6 @@ function createAbout(aboutData, testimonials) {
         `).join('')}
       </ul>
     </section>
-
-    <section class="testimonials">
-      <h3 class="h3 testimonials-title">Testimonials</h3>
-      <ul class="testimonials-list has-scrollbar">
-        ${testimonials.map(testimonial => `
-          <li class="testimonials-item">
-            <div class="content-card" data-testimonials-item>
-              <figure class="testimonials-avatar-box">
-                <img src="${testimonial.avatar}" alt="${testimonial.name}" width="60" data-testimonials-avatar>
-              </figure>
-              <h4 class="h4 testimonials-item-title" data-testimonials-title>${testimonial.name}</h4>
-              <div class="testimonials-info">
-                <p class="testimonials-job-title" data-testimonials-job-title>${testimonial.jobTitle}</p>
-                <a href="${testimonial.linkedin}" class="testimonials-linkedin" data-testimonials-linkedin target="_blank">
-                  LinkedIn
-                </a>
-              </div>
-              <div class="testimonials-text" data-testimonials-text>
-                <p>${testimonial.text}</p>
-              </div>
-            </div>
-          </li>
-        `).join('')}
-      </ul>
-    </section>
   `;
 
   return about;
