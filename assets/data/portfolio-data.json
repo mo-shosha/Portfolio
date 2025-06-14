@@ -1,0 +1,190 @@
+{
+  "personalInfo": {
+    "name": "Mohamed Shosha",
+    "title": ".NET Developer",
+    "avatar": "./assets/images/my-avatar2.jpg",
+    "email": "shoshamohamed313@gmail.com",
+    "phone": "+20 101 2448 774",
+    "location": "Cairo, EGYPT",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mo-shosha",
+        "icon": "./assets/images/github.png"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mohamed-shosha/",
+        "icon": "./assets/images/linkedin.png"
+      },
+      {
+        "name": "CodeForces",
+        "url": "https://codeforces.com/profile/Mohamed_Shosha",
+        "icon": "./assets/images/Codeforces.svg"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/u/Mohamed_shosha/",
+        "icon": "./assets/images/LeetCode.svg.png"
+      }
+    ]
+  },
+  "about": {
+    "description": [
+      "I am a passionate .NET Developer based in Cairo, Egypt, with a strong focus on building scalable and user-centered web applications. I specialize in ASP.NET Core for backend development and Angular for creating dynamic, responsive front-end interfaces.",
+      "My work includes full-stack solutions for platforms serving charitable organizations, with an emphasis on clean architecture, performance, and multilingual support. I'm continuously improving my skills in modern development practices and cloud technologies like Azure."
+    ],
+    "services": [
+      {
+        "title": "Frontend Development with Angular",
+        "description": "Building responsive and interactive web interfaces using Angular, with a focus on usability, performance, and seamless user experiences.",
+        "icon": "./assets/images/web-development.png"
+      },
+      {
+        "title": "Backend Development with .NET",
+        "description": "Creating robust and secure APIs using ASP.NET Core, C#, and SQL Server with clean architecture and scalable backend logic.",
+        "icon": "./assets/images/backend.png"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": " ",
+      "jobTitle": " ",
+      "linkedin": " ",
+      "avatar": " ./assets/images/businessman.png",
+      "text": "Mohamed is an exceptional .NET developer with a deep understanding of the Microsoft ecosystem. His ability to write clean, maintainable code and solve complex problems makes him an invaluable team member. I've had the pleasure of working with him on several projects."
+    },
+    {
+      "name": " ",
+      "jobTitle": " ",
+      "linkedin": " ",
+      "avatar": "./assets/images/businessman.png",
+      "text": "Working with Mohamed was a great experience. He delivered high-quality .NET applications on time and within budget. His technical expertise and communication skills made our project successful."
+    }
+  ],
+  "resume": {
+    "education": [
+      {
+        "degree": "Bachelor of Computer Science",
+        "institution": "Faculty of Computer and Information Sciences",
+        "period": "2022 - 2026",
+        "description": "Specialized in software engineering with focus on .NET development and web technologies."
+      }
+    ],
+    "experience": [
+      {
+        "position": "No - experience",
+        "company": "",
+        "period": "",
+        "description": ""
+      }
+    ],
+    "skills": {
+      "technical": ["C#", "ASP.NET Core", "Entity Framework", "SQL Server", "JavaScript", "HTML/CSS", "LINQ", "Git"],
+      "tools": ["Visual Studio", "VS Code", "SQL Server Management Studio", "Postman", "Docker"]
+    }
+  },
+  "portfolio": {
+  "categories": ["all", "web-applications", "apis", "database", "cloud-solutions"],
+  "projects": [
+    {
+      "title": "Free Mentor – Online Learning Platform",
+      "category": "web-applications",
+      "image": "./assets/images/portfolio-4.jpg",
+      "description": "A platform offering free educational resources with interactive, mobile-friendly learning and curated, high-quality content for students.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
+      "liveDemo": "https://freementor2024.onrender.com/"
+    },
+    {
+      "title": "Bulky Book – E-Commerce MVC Web App",
+      "category": "web-applications",
+      "image": "./assets/images/portfolio-5.jpg",
+      "description": "ASP.NET Core 8-based e-commerce platform with secure authentication, responsive UI, and Stripe payment integration.",
+      "technologies": ["C#", "ASP.NET Core 8", "EF Core", "ASP.NET Identity", "Bootstrap", "Stripe"],
+      "liveDemo": "https://bulkeybook.runasp.net/"
+    },
+    {
+      "title": "GameZone - ASP.NET MVC Web App",
+      "category": "web-applications",
+      "image": "./assets/images/portfolio-6.jpg",
+      "description": "A CRUD web app for managing games, demonstrating MVC architecture and Entity Framework integration.",
+      "technologies": ["C#", "ASP.NET MVC", "Entity Framework", "SQL Server", "Bootstrap"],
+      "liveDemo": "https://game22zone.runasp.net/"
+    },
+    {
+      "title": "Educational Center Web Application",
+      "category": "apis",
+      "image": "./assets/images/portfolio-7.jpg",
+      "description": "Student services platform including FAQs, testimonials, real-time updates, and branch locator. Backend integration led by team leader.",
+      "technologies": ["C#", ".NET 8", "SQL Server", "HTML", "CSS", "JavaScript"],
+      "liveDemo": "https://the-center.netlify.app/"
+    },
+    {
+      "title": "ICPC Tanta Community API",
+      "category": "apis",
+      "image": "./assets/images/portfolio-8.jpg",
+      "description": "RESTful API supporting ICPC Tanta website with user roles, event schedules, forum features, AI hints, and JWT-secured messaging.",
+      "technologies": ["C#", ".NET 8", "Entity Framework", "JWT", "SQL Server"],
+      "liveDemo": "https://github.com/mo-shosha/ICPC-Tanta-Community"
+    },
+    {
+      "title": "HopeGivers – Charity Organizations Platform",
+      "category": "apis",
+      "image": "./assets/images/portfolio-9.jpg",
+      "description": "Global charity platform with secure authentication, role-based access, and robust backend architecture using clean patterns.",
+      "technologies": ["C#", ".NET Core", "Entity Framework", "JWT", "Repository Pattern", "Unit of Work"],
+      "liveDemo": "https://hope-givers.vercel.app"
+    }
+  ]
+},
+  "blog": {
+    "posts": [
+      {
+        "title": "Getting Started with ASP.NET Core",
+        "date": "2024-01-15",
+        "excerpt": "A comprehensive guide for beginners who want to start their journey in ASP.NET Core development.",
+        "image": "./assets/images/blog-1.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Entity Framework Best Practices",
+        "date": "2024-01-10",
+        "excerpt": "Learn the best practices for using Entity Framework Core in your .NET applications.",
+        "image": "./assets/images/blog-2.jpg",
+        "url": "#"
+      }
+    ]
+  },
+  "contact": {
+    "email": "mohamed.shosha@example.com",
+    "phone": "+20 122 4977 875",
+    "location": "Cairo, EGYPT",
+    "formFields": [
+      {
+        "name": "name",
+        "type": "text",
+        "placeholder": "Your Name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "placeholder": "Your Email",
+        "required": true
+      },
+      {
+        "name": "subject",
+        "type": "text",
+        "placeholder": "Subject",
+        "required": true
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "placeholder": "Your Message",
+        "required": true
+      }
+    ]
+  }
+} 
